@@ -75,4 +75,12 @@ header{
     background: rgb(20, 90, 13);
 }
 
+.m-nina{
+    width: 60px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 90, 13);
+}
 
