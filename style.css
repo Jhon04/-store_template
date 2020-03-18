@@ -3,84 +3,39 @@ background: -webkit-linear-gradient(to top, #da4453, #89216b);
 background: linear-gradient(to top, #da4453, #89216b);
 */
 
-*{
+body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
     width: 100vw;
     height: 100vh;
+}
+
+.c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+
+.content{
+    display: grid;
+    justify-items: center;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-header{
-    position: absolute;
-    background: rgba(255, 255, 255, 0);
-    top: 10px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.img-logo{
+    height: 100%;
 }
 
-.content-menu{
-    width: 240px;
-    height: 20px;
-    background: rgb(129, 52, 148);
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.img-f{
+    transition: all 1s ease;
+    filter: grayscale(100%);
 }
 
-.m-hamburger{
-    width: 60px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(47, 113, 201);
+.img-nf{
+    transition: all 1s ease;
+    filter: none;
 }
 
-.m-hombre{
-    width: 60px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: red;
-}
 
-.m-mujer{
-    width: 60px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(255, 217, 0);
-}
-
-.m-nino{
-    width: 60px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(20, 90, 13);
-}
-
-.m-nina{
-    width: 60px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(20, 90, 13);
-}
 
